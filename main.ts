@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     password += 1
     basic.showNumber(password)
-    if (password == 9) {
+    if (password == 10) {
         password = 1
     }
 })
